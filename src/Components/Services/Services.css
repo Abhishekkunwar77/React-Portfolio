@@ -27,7 +27,7 @@
   gap: 20px;
   padding: 60px;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid #FFD700;
   transition: 0.4s;
   cursor: pointer;
 }
@@ -44,7 +44,7 @@
 .services-format h2 {
   font-size: 28px;
   font-weight: 800;
-  background: linear-gradient(267deg, #df8908 50%, #b415ff 100%);
+  background: linear-gradient(267deg, #50C878 50%, #FFD700 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -63,7 +63,7 @@
   margin-top: 20px;
 }
 .services-format:hover {
-  border: 2px solid #ff00ff;
+  border: 2px solid #50C878;
   background-image: linear-gradient(45deg, #3f0028, #582300);
   transform: scale(1.05);
   transition: 0.4s;

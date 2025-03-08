@@ -1,9 +1,10 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+import project1_img from '../assets/foodieApp.svg'
+import project2_img from '../assets/InstituteMS.svg'
+import project3_img from '../assets/portfolio.svg'
+import project4_img from '../assets/ImageSearch.svg'
+import project5_img from '../assets/foodieApp.svg'
+import project6_img from '../assets/NewsApp.svg'
+import project7_img from '../assets/Timer.svg'
 
 const mywork_data = [
     {
@@ -36,6 +37,12 @@ const mywork_data = [
         w_name:"Web design",
         w_img:project6_img
     },
+    {
+        w_no:7,
+        w_name:"Web design",
+        w_img:project7_img
+    },
+  
 ]
  
 export default mywork_data;

@@ -1,16 +1,16 @@
 import React, { use } from "react";
 import "./Footer.css";
-import footer_logo from "../../assets/footer_logo.svg";
+import logo from "../../assets/logo.svg";
 import user_icon from "../../assets/user_icon.svg";
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <img src={footer_logo} alt="" />
+          <img src={logo} alt="" />
           <p>
-            {" "}
-            i am a frontend developer from usa with 10 years of experience.
+            Half Human, Half Debugging Machine <br></br> | Chanting in Code | Manifesting
+            in Logic.
           </p>
         </div>
         <div className="footer-rop-right">
@@ -23,11 +23,13 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <div className="footer-bottom-left">©️2025 Abhishek Kunwar. All rights reserved.</div>
+        <div className="footer-bottom-left">
+          ©️2025 Abhishek Kunwar. All rights reserved.
+        </div>
         <footer className="footer-bottom-right">
-            <p>Terms of  services</p>
-            <p>Privacy Policy</p>
-            <p>Connect with me</p>
+          <p>Terms of services</p>
+          <p>Privacy Policy</p>
+          <p>Connect with me</p>
         </footer>
       </div>
     </div>

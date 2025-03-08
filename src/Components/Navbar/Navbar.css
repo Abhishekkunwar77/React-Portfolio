@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 20px 170px;
+  margin-top:-10px;
 }
 .nav-menu {
   display: flex;
@@ -11,10 +12,16 @@
   gap: 60px;
   font-size: 20px;
 }
+.logo-left-top{
+  height:210px;
+  width:400px;
+  margin-left: -180px;
+  margin-top:-40px;
+}
 .nav-connect {
   padding: 20px 40px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.365%, #b923e1 102.06%);
+  background: linear-gradient(267deg, #50C878 0.365%, #FFD700 102.06%);
   font-size: 22px;
   cursor: pointer;
   transition: 0.5s;
@@ -28,6 +35,9 @@
   gap: 5px;
   cursor: pointer;
 }
+
+
+
 .nav-menu li img {
   display: flex;
   margin: auto;
@@ -41,6 +51,7 @@
 }
 .nav-mob-open{
     display: none;
+    
 }
 @media (max-width: 768px) {
   .navbar {
@@ -53,6 +64,7 @@
     display: block;
     position: fixed;
     right: 30px;
+    cursor: pointer;
   }
   .nav-mob-close {
     display: block;
@@ -60,6 +72,7 @@
     top: 30px;
     left: 290px;
     width: 30px;
+    cursor: pointer;
   }
   .nav-menu {
     position: fixed;
@@ -79,5 +92,10 @@
     padding-left: 100px;
     flex-direction: row;
     gap:20px;
+  }
+  .logo-left-top{
+    height:200px;
+    margin-left:-70px;
+    margin-top:-55px;
   }
 }
