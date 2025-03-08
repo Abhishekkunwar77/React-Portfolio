@@ -13,7 +13,7 @@ const Footer = () => {
             in Logic.
           </p>
         </div>
-        <div className="footer-rop-right">
+        <div className="footer-top-right">
           <div className="footer-email-input">
             <img src={user_icon} alt="" />
             <input type="email" placeholder="Enter your email" />
