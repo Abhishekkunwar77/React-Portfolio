@@ -3,11 +3,18 @@ import './Hero.css'
 import profile_img from '../../assets/profile_pic.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Hero = () => {
+
+ const downloadResume = () => {
+  const link=document.createElement('a');
+  link.href = "/src/Components/Hero/Resume.pdf";
+  link.download='Abhishek-Kunwar-Resume.pdf';
+  link.click();
+ }
+
   return (
     <div id="home" className="hero">
       <img src={profile_img} alt="" />
       <h1>
-        
         <span>I,m Abhishek Kunwar, </span> eager to learn frontend developement.
       </h1>
       <p>
@@ -23,7 +30,9 @@ const Hero = () => {
             Connect With Me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My Resume</div>
+        <div onClick={downloadResume} className="hero-resume">
+          My Resume
+        </div>
       </div>
     </div>
   );
